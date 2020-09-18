@@ -14,7 +14,8 @@ body{
 	margin: 0 auto;
 	
 } */
-
+#header{
+	background-color: #FFFFFF;}
 .page900{
 	margin: 0 auto;
 	width: 1160px;
@@ -23,62 +24,111 @@ body{
 	
 }
 #logo{
-	width: 318px;
-	height: 90px;
+	width: 316px;
+	height: 60px;
 	/* background-color:pink ; */
 	float: left;
 	
 	
+	
 }
 #logo img{
-	padding: 25px 0 20px 0px;
+	padding: 12px 0 10px 0px;
+	width: 210px;
+	height: 37px;
 }
 #nav{
 	width: 490px;
 	/* background-color: #FFFF00; */
 	float: left;
+	margin-left: 40px;
+}
+#nav2{
+	font-size: 14px;
+	padding: 20px 0 0px 0;
+	
+	
+}
+#nav2 a{
+	text-decoration: none;
+	color: red;
+}
+h2{
+	text-align: center;
+	margin: 10px 0 40px 0;
+	
+	
+
+	
+}
+#main h3{
+	/* background-color: yellow; */
+	padding: 20px 0;
+}
+#main h4{
+	/* background-color: #FF7F50; */
+	padding: 10px 0 5px 0;
+	font-size: 14px;
+	
+}
+#footer h3{
+	
+		font-size: 14px;
+	
+}
+
+.section1 p{
+	font-size: 14px;
+	line-height: 27px;
 }
 #nav li{
 	width: 98px;
 	float: left;
-	height: 90px;
-	line-height: 90px;
+	height: 60px;
+	line-height: 60px;
 	text-align: center;
-	font-size: 16px;
+	font-size: 14px;
+
 	
 }
 #nav li a{
 	display: block;
 	text-decoration: none;
 	color: #333333;
+	margin-right: 1px;
 	}
-.fuwu{
-	background-color: #FF0000;
+#nav li .fuwu{
+	background-color: #df001f;
 	color: #ffffff;
 }
 #nav li a:hover{
 	color: #ffffff;
-	background-color: #FF0000;
+	background-color: #df001f;
 	
 }
 
 #search{
-	width: 280px;
-	height: 70px;
-	padding-top: 20px;
+	width: 260px;
+	height: 60px;
+	/* padding-top: 20px; */
 	/* background-color: aquamarine; */
 	float: right;
+	line-height: 60px;
+	
 	
 }
 #search input{
-	width: 230px;
-	height: 50px;
+	width: 120px;
+	height: 30px;
 	padding-left: 20px;
 	background-image: url(image/zoom.png);
+	background-size: 15px;
 	background-repeat: no-repeat;
-	background-position: 210px center;
+	background-position: 110px center;
 	border: 1px solid #CCCCCC;
 	border-radius: 4px;
+	margin-left: 50px;
+	font-size: 12px;
 }
 
 /* #logo{
@@ -87,48 +137,221 @@ body{
 } */
 #banner{
 	height: 300px;
-	width: auto;
-	/* background-color: #FF0000; */
-	background-image: url(image/banner.png);
+	/* width: auto; */
+	background-color: #FF0000;
+	background-image: url(image/banner2.png);
 	background-repeat: no-repeat;
 	background-position: center;
 }
 #main{
-	background-color: yellow;
+	/* background-color: yellow; */
 	
 	
 	
 }
 .section1{
-	background-color: #333333;
+	background-color: #f7f8f9;
 	overflow: hidden;
+
+	
 }
 .section2{
-	background-color: aqua;
+	/* background-color: #FFFFFF; */
+	overflow: hidden;
+	margin-top: 30px;
+	
 }
 
 .left{
-	width:866px;
-	background-color: #FF00FF;
+	width:846px;
+	background-color: #FFFFFF;
 	float: left;
+	padding-left: 20px;
+	padding-bottom: 40px;
+	
+	/* padding-top: 20px; */
 	
 }
 .right{
 	width: 278px;
-	background-color:palevioletred ;
+	background-color:#FFFFFF ;
 	float: right;
 	
-	/* height: 800px; */
+	/* height: 800px; */}
+.right ul .goumai{
+	font-size: 18px;
+	width: 278px;
+	height: 50px;
+	padding: 0 0 0 20px;
+	line-height: 50px;
 }
+.right ul .zhinan{
+	background-color: #666666;
+	color: #FFFFFF;
+	
+}
+.right ul li a{
+        width: 258px;
+		height: 45px;
+		display: block;
+		text-decoration: none;
+		/* background-color: red; */
+		padding-left: 20px;
+		line-height:45px ;
+		color: #333333;
+		font-size: 14px;
+	}
+.goumai{
+	font-size: 20px;
+}
+
+
+.right ul li a:hover{
+	background-color: #666666;
+	color: white;
+}
+
 .wangdian li{
-	background-color: coral;
+	background-color: #ffffff;
 	margin: 0 0 20px 0;
-	width: 354px;
+	width: 376px;
+	float: left;
+	overflow: hidden;
+	
+}
+.wangdian .bianju{
+	margin: 0 16px;
+}
+.wd-pic1{
+	width: 140px;
+	float: left;
+	padding: 10px;
+	/* background-color: #666666; */
+}
+.wd-pic1 img{
+	display: block;
+}
+.text{
+	width: 160px ;
+	float: left;
+	/* background-color: gold; */
+	font-size: 13px;
+	line-height: 22px;
+	padding: 10px 20px 10px 5px;
+	
+	}
+.text h4{
+margin-bottom: 5px;
+}
+#footer{
+	background-color: #333;
+	padding-top: 80px;
+	margin-top: 40px;
+}
+
+.sitemap{
+	/* background-color: #df001f; */
+	overflow: hidden;
+}
+.copyright{
+	/* background-color: magenta; */
+	padding: 80px 0 0 0;
+	color: #f4f4f4;
+}
+.copyright p{
+	text-align: center;
+	font-size: 10px;
+	
+}
+.contact{
+	/* background-color: green; */
+	width: 376px;
+	float: left;
+	overflow: hidden;
+	
+}
+/* .contact img{
+	background-color: #666666;
+	padding: 0 0 0 -80px;
+	width: 180px;
+	height: 50px;
+	/* display: block; */
+	
+.contact img{
+	/* background-color:red ; */
+	width: 220px;
+	
+}	
+	
+	
+	
+	
+
+#footer h3{
+	
+	font-size: 13px;
+	/* background-color: #CCCCCC; */
+	padding-bottom: 10px;
+	color: #f4f4f4;
+}
+#footer li{
+	font-size: 12px;
+	
+	
+	
+}	
+#footer .fmenu li{
+	/* text-align: right; */
+}
+#footer .fmenu h3{
+	/* text-align: right; */
+}
+#footer li a{
+	text-decoration: none;
+	/* text-align: right; */
+	color: #666666;
+	/* background-color: #666666; */
+	
+}
+.footer_menu{
+	/* background-color: pink; */
+	
+	width: 784px;
+	float: left;
+}
+.fmenu{
+	overflow: hidden;
+	width: 784px;
+	/* background-color: red; */
+}
+.fmenu-lete{
+	width: 130px;
+	float: left;
+	}
+.shejiao{
+	margin-top: 30px;
+}
+.shejiao ul{
+	overflow: hidden;
+	
+	
+}
+.shejiao ul li{
+	width: 60px;
+	/* background-color: white; */
 	float: left;
 	
 	
 }
-#footer{
-	background-color: #333;
-}
 
+.shejiao ul li img{
+	width: 40px;
+	height: 40px;
+}
+.jituantext{
+	margin-top: 30px;
+	color:#666666 ;
+}
+.fmenu-lete ul li a:hover{
+	color: #f4f4f4;
+}
